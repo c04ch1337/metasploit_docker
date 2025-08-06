@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  metasploit:
+    build:
+      context: ./docker
+    container_name: metasploit-lab
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./scripts:/root/scripts
+      - ./cheatsheet:/root/cheatsheet
+    environment:
+      - TERM=xterm
