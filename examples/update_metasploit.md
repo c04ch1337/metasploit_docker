@@ -6,6 +6,7 @@ Update the Metasploit Framework and its modules (exploits, payloads, auxiliary, 
 ---
 
 ### Script:
+
 ```bash
 #!/bin/bash
 
