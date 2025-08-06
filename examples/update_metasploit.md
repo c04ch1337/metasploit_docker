@@ -1,13 +1,18 @@
+## 📜 update_metasploit.sh
+
 ## Purpose:
 Update the Metasploit Framework and its modules (exploits, payloads, auxiliary, etc.) to the latest version.
 
-### Script:
+---
 
+### Script:
+```bash
 #!/bin/bash
 
 echo "[+] Updating Metasploit Framework..."
 msfupdate
-
+```
+---
 ### What it does:
 
     Calls msfupdate, which:
@@ -29,6 +34,7 @@ msfupdate
         Compatibility with external tools like Nmap, db_nmap, etc.
 
 ### How to use it:
-
+```bash
 chmod +x update_metasploit.sh
 ./update_metasploit.sh
+```
